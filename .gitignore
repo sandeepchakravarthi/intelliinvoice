@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+.env
+
+# Logs
+logs/
+*.log
+
+# Node
+node_modules/
+frontend/dist/
+.npm
+
+# Environment and secrets
+.env
+.env.local
+.env.production
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Docker volumes (don't commit data)
+postgres_data/
+minio_data/
+redis_data/
