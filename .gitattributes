@@ -1,11 +1,16 @@
-# Set Python as the main language for language statistics
+# Force Python as primary language
 *.py linguist-language=Python
 
-# Detect language for documentation and config files
+# Exclude frontend from language stats
+frontend/ linguist-vendored=true
+*.ts linguist-vendored=true
+*.tsx linguist-vendored=true
+*.html linguist-vendored=true
+*.css linguist-vendored=true
+*.js linguist-vendored=true
+
+# Mark config/docs as non-code
 *.md linguist-documentation
 *.json linguist-data
 *.yaml linguist-data
 *.yml linguist-data
-
-# Optionally, mark frontend as secondary
-frontend/ linguist-vendored=false
