@@ -1,0 +1,11 @@
+# Set Python as the main language for language statistics
+*.py linguist-language=Python
+
+# Detect language for documentation and config files
+*.md linguist-documentation
+*.json linguist-data
+*.yaml linguist-data
+*.yml linguist-data
+
+# Optionally, mark frontend as secondary
+frontend/ linguist-vendored=false
